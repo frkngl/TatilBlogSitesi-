@@ -3,104 +3,133 @@
     ViewBag.Title = "OtelDetay";
     Layout = "~/Views/Shared/_AnasayfaLayout.cshtml";
 }
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
 
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Personal Blog a Blogging Category Flat Bootstarp  Responsive Website Template | Single :: w3layouts</title>
-    <link href="~/web2/css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="~/web2/css/style.css" rel='stylesheet' type='text/css' />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Personal Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <!----webfonts---->
-    <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
-    <!----//webfonts---->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!--end slider -->
-    <!--script-->
-    <script type="text/javascript" src="~/web2/js/move-top.js"></script>
-    <script type="text/javascript" src="~/web2/js/easing.js"></script>
-    <!--/script-->
-    <!---->
+        .container .sutun {
+            width: 65%;
+        }
 
-</head>
-<body>
-    <!---header---->
-    <div class="header">
-        <div class="container">
+        .container .sutun2 {
+            width: 35%;
+        }
 
-            <!---start-top-nav---->
-            <!---//End-top-nav---->
-        </div>
+        .container .sutun .blogs .img img {
+            width: 640px;
+            height: 427px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .container .sutun .blogs .details {
+            padding: 0px 0px 0px 20px;
+            width: 640px;
+            border-radius: 8px;
+        }
+
+    .sutun2 .sonblog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sutun2 .sonyorum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sutun2 h4 {
+    }
+
+    .bosluk {
+        margin: 0px 0px 10px 0px;
+    }
+
+
+    .text {
+        text-decoration: none;
+    }
+
+    .container .sutun .yorums {
+        border: 1px solid;
+        display: flex;
+        width: 640px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+        .container .sutun .yorums .img img {
+            width: 70px;
+            height: auto;
+            margin-top: 5px;
+        }
+</style>
+
+<div style="width: 1170px;" class="container">
+    <div class="sutun">
+        @foreach (var x in Model.oteller)
+        {
+            <div class="blogs">
+                <div class="img">
+                    <img src="~/IMG/@x.OtellerImage">
+                </div>
+                <div class="details">
+                    <h3>@x.Baslik</h3>
+                    <h6>@x.Tarih.Value.ToString("dd.MM.yyyy")</h6>
+                    <p>@x.Aciklama</p>
+
+                </div>
+            </div>
+        }
+        <h4 style="margin-top:40px;">Yorumlar / 27</h4>
+        @foreach (var y in Model.otelyorumlar)
+        {
+            <div class="yorums">
+                <div class="img">
+                    <img src="~/IMG/user_1077114.png">
+                </div>
+                <div class="details">
+                    <h4>@y.KullaniciAdi</h4>
+                    <h6 style="margin-top:-10px;">@y.Tarih</h6>
+                    <p>@y.Yorum</p>
+                </div>
+            </div>
+        }
+        @Html.Action("YorumYap", "Oteller")
     </div>
-    <!--/header-->
-    <div class="single">
-        <div class="container">
-            <div class="col-md-8 single-main">
-                <div class="single-grid">
-                    @foreach (var x in Model.oteller)
+    <div class="sutun2">
+        <h4>Son Kaldığım Oteller</h4>
+        <div class="sonblog">
+            @foreach (var z in Model.oteller2)
+            {
+                <a class="text" href="~/Oteller/OtelDetay/@z.ID">@z.Baslik</a>
+                <hr class="bosluk">
+            }
+
+        </div>
+        <h4>Son Yorumlar</h4>
+        <div class="sonyorum">
+            @foreach (var a in Model.otelyorumlar2)
+            {
+                <a class="text" href="/Oteller/OtelDetay/@a.OTELID">
+                    @a.KullaniciAdi on
+                    @if (a.Yorum.Length < 20)
                     {
-                        <img style="width:640px;height:427px;" src="~/IMG/@x.OtellerImage" alt="" />
-                        <h2>@Html.Raw(x.Baslik)</h2>
-                        <p>
-                            @Html.Raw(x.Aciklama)
-                        </p>
+                        @a.Yorum
                     }
-
-                </div>
-                @foreach (var y in Model.otelyorumlar)
-                {
-                    <ul class="comment-list">
-                        <li>
-                            <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                            <div class="desc">
-                                <p>@y.KullaniciAdi: @y.Yorum</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                    </ul>
-                }
-
-                @Html.Action("YorumYap","Oteller")
-            </div>
-
-            <div class="col-md-4 side-content">
-                <div class="recent">
-                    <h3>Son Otel Postları</h3>
-                    <ul>
-                        @foreach (var z in Model.oteller2)
-                        {
-                            <li><a href="/Oteller/OtelDetay/@z.ID">@Html.Raw(z.Baslik)</a></li>
-                        }
-                    </ul>
-                </div>
-                <div class="comments">
-                    <h3>Son Yorumlar</h3>
-                    <ul>
-                        @foreach (var a in Model.otelyorumlar2)
-                        {
-                            <li>@a.KullaniciAdi <a href="/Oteller/OtelDetay/@a.OTELID">@a.Yorum</a></li>
-                        }
-
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="clearfix"></div>
+                    else
+                    {
+                        @a.Yorum.Substring(0, 20)
+                    }
+                </a>
+                <hr class="bosluk">
+            }
         </div>
     </div>
+</div>
 
-    <!---->
-</body>
-</html>
+
 

@@ -4,49 +4,143 @@
     Layout = "~/Views/Shared/_AnasayfaLayout.cshtml";
 }
 
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Personal Blog a Blogging Category Flat Bootstarp  Responsive Website Template | Single :: w3layouts</title>
-    <link href="~/web2/css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="~/web2/css/style.css" rel='stylesheet' type='text/css' />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Personal Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <!----webfonts---->
-    <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
-    <!----//webfonts---->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!--end slider -->
-    <!--script-->
-    <script type="text/javascript" src="~/web2/js/move-top.js"></script>
-    <script type="text/javascript" src="~/web2/js/easing.js"></script>
-    <!--/script-->
-    
-    <!---->
 
-</head>
-<body>
-    <!---header---->
-    <div class="header">
-        <div class="container">
-            
-            <!---start-top-nav---->
-    
-            
-            <!---//End-top-nav---->
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+        .container .sutun {
+            width: 65%;
+        }
+
+        .container .sutun2 {
+            width: 35%;
+        }
+
+        .container .sutun .blogs .img img {
+            width: 640px;
+            height: 427px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .container .sutun .blogs .details {
+            padding: 0px 0px 0px 20px;
+            width: 640px;
+            border-radius: 8px;
+        }
+
+    .sutun2 .sonblog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sutun2 .sonyorum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sutun2 h4 {
+    }
+
+    .bosluk {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .text {
+        text-decoration: none;
+    }
+
+    .container .sutun .yorums {
+        border: 1px solid;
+        display: flex;
+        width: 640px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+        .container .sutun .yorums .img img {
+            width: 70px;
+            height: auto;
+            margin-top: 5px;
+        }
+</style>
+    <div style="width: 1170px;" class="container">
+        <div class="sutun">
+            @foreach (var x in Model.bloglar)
+            {
+                <div class="blogs">
+                    <div class="img">
+                        <img src="~/IMG/@x.BlogImage">
+                    </div>
+                    <div class="details">
+                        <h3>@x.Baslik</h3>
+                        <h6>@x.Tarih.Value.ToString("dd.MM.yyyy")</h6>
+                        <p>@x.Aciklama</p>
+
+                    </div>
+                </div>
+            }
+            <h4 style="margin-top:40px;">Yorumlar / 27</h4>
+            @foreach (var y in Model.yorumlar)
+            {
+                <div class="yorums">
+                    <div class="img">
+                        <img src="~/IMG/user_1077114.png">
+                    </div>
+                    <div class="details">
+                        <h4>@y.KullaniciAdi</h4>
+                        <h6 style="margin-top:-10px;">@y.Tarih</h6>
+                        <p>@y.Yorum</p>
+                    </div>
+                </div>
+            }
+            @Html.Action("YorumYap", "Blog")
+        </div>
+        <div class="sutun2">
+            <h4>Son Bloglar</h4>
+            <div class="sonblog">
+                @foreach (var z in Model.bloglar2)
+                {
+                    <a class="text" href="~/Blog/BlogDetay/@z.ID">@z.Baslik</a>
+                    <hr class="bosluk">
+                }
+
+            </div>
+            <h4>Son Yorumlar</h4>
+            <div class="sonyorum">
+                @foreach (var a in Model.yorumlar2)
+                {
+                    <a class="text" href="/Blog/BlogDetay/@a.BLOGID">
+                        @a.KullaniciAdi on
+                        @if (a.Yorum.Length < 20)
+                        {
+                            @a.Yorum
+                        }
+                        else
+                        {
+                            @a.Yorum.Substring(0, 20)
+                        }
+                    </a>
+                    <hr class="bosluk">
+                }
+            </div>
         </div>
     </div>
-    <!--/header-->
+
+
+
+
+
+
+
+
+
+
+@*/header
     <div class="single">
         <div class="container">
             <div class="col-md-8 single-main">
@@ -100,12 +194,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
-    
-    <!---->
-    </body>
-</html>
-
-
-
-
+    </div>*@

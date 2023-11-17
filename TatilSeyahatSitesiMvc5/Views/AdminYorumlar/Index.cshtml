@@ -24,8 +24,17 @@
     {
         isim = isim + x.ID;
         <tr>
+            
             <td>@x.ID</td>
-            <td>@x.TBLBLOG.Baslik.Substring(0, 20)</td>
+            <td>@if (x.TBLBLOG.Baslik.Length < 20)
+            {
+                @x.TBLBLOG.Baslik
+                }
+            else
+            {
+                @x.TBLBLOG.Baslik.Substring(0, 20)
+            }
+            </td>
             <td>@x.KullaniciAdi</td>
             <td>@x.Tarih.Value.ToString("dd.mm.yyyy")</td>
             <td>

@@ -11,7 +11,6 @@
         flex-direction: column;
         width: 300px;
     }
-
         .populer .populers {
             border: 0.1px solid black;
             height: 40px;
@@ -23,14 +22,11 @@
             font-size: 13px;
             font-weight: 500;
         }
-
             .populer .populers:hover {
                 background-color: white;
                 color: black;
                 transition: 0.5s;
-            }
-
-   
+            } 
     .padding .box2-left .otelcik:hover {
         box-shadow: 1px 1px 40px 20px white
     }
@@ -57,21 +53,7 @@
     font-size:12px;
     font-weight:600;
 }
-
 </style>
-        @*<div style="display:flex; justify-content:center;" class="banner">
-                    <div style="background-color:black;  width:100%; height:555px;" class="slider" >
-                        <ul class="rslides" id="slider1">
-                            @foreach (var x in Model.muzeler)
-                            {
-                                <li><img style="background-color: black; height: 555px; width: 100%;" src="~/IMG/@x.MuzelerImage"  alt=""></li>
-                            }
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        <div class="clear"></div>*@
-        
 <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -125,39 +107,7 @@
                 }
             </div>
             @Html.Action("Partial4", "Anasayfa")
-
             @Html.Action("Partial5", "Anasayfa")
-           
-            @*<div class="grids">
-            <div style="width:100%;display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:center;" class="">
-                <div class="">
-                    @{
-                        var top10 = Model.muzeler2.OrderByDescending(x => x.ID).Take(1).ToList();
-                        int i = 0;
-                    }
-                </div>
-                <div style="width:100%;" class="padding">
-                    <div style="width:100%;display:flex; flex-direction:row; justify-content:space-evenly;">
-                        <div class="box2-left">
-                            <h4 style="text-align:center;" ;>Son Gezdiğim Yerler</h4>
-                            @foreach (var z in Model.muzeler2)
-                            {
-                                <div style="height:70px; border-radius:8px;" class="otelcik">
-                                    <div class="bot-img">
-                                        <img style="height: 70px; width: 120px; border-radius: 8px;" src="~/IMG/@z.MuzelerImage" alt="" />
-                                    </div>
-                                    <div class="bot-desc1">
-                                        <a style="font-weight:500; font-style:normal; text-decoration:none; cursor:pointer;" href="/Muzeler/MuzelerDetay/@z.ID"><p>@Html.Raw(z.Aciklama.Substring(0, 80)) </p></a>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                                    }
-                            </div>
-
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>*@
         </div>
     </div>
 </div>
