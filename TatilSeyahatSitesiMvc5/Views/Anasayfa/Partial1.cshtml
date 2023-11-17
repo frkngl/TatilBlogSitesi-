@@ -1,0 +1,17 @@
+﻿@model TatilSeyahatSitesiMvc5.Models.BlogYorum
+<div style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center;" class="con-top">
+   
+    @foreach (var x in Model.aciklama)
+    {
+        <div class="card text-bg-dark border-0">
+            <img style="height:400px;" src="~/IMG/@x.FotoUrl" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h5 class="card-title text-center">HAKKIMDA</h5>
+                <p style="font-size:14px; font-weight:600;" class="card-text text-white text-center">@Html.Raw(x.Aciklama.Substring(0, 400))</p>
+                <p class="card-text d-flex align-items-center justify-content-center"><a class="btn btn-outline-light" href="/About/Index">Daha Fazlası..</a></p>
+            </div>
+        </div>
+    }
+</div>
+@*<p>@Html.Raw(x.Aciklama.Substring(0, 300)) </p>
+    <a href="/About/Index"><span class="read">Devamını Oku >></span></a>*@

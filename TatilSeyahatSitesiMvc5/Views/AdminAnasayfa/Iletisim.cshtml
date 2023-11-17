@@ -1,0 +1,76 @@
+﻿@model TatilSeyahatSitesiMvc5.Models.TBLADRES
+@{
+    ViewBag.Title = "Iletisim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+<h2 style="display:flex; justify-content:center;">İletişim Güncelleme</h2>
+<br />
+@using (Html.BeginForm("Iletisim", "AdminAnasayfa", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <form class="form-group d-flex flex-column ">
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.ID, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @style = "width:100%; height:30px;", @readonly = "readonly" })
+        </div>
+        <br />
+        <br />
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Adres, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextAreaFor(x => x.Adres, new { @class = "form-control", @style = "width:100%; height:40px;overflow:hidden;", required = "required" })
+        </div>
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Telefon, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextAreaFor(x => x.Telefon, new { @class = "form-control", @style = "width:100%; height:40px; overflow:hidden;", required = "required" })
+        </div>
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Mail, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextAreaFor(x => x.Mail, new { @class = "form-control", @style = "width:100%; height:40px;overflow:hidden;", required = "required" })
+        </div>
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Konum, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextAreaFor(x => x.Konum, new { @class = "form-control", @style = "width:100%; height:70px;", required = "required" })
+        </div>
+
+        <div style="margin:10px 0px 0px 20px;">
+            <button class="btn btn-primary">Kaydet</button>
+        </div>
+
+    </form>
+}
+
+
+
+
+
+
+@if (TempData["hata"] != null)
+{
+    <script>
+
+        toastr["error"]("Bir resim dosyası seçmelisiniz!!")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}
+

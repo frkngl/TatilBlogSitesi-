@@ -1,0 +1,96 @@
+﻿@using TatilSeyahatSitesiMvc5.Models
+@model List<TBLBLOG>
+@{
+    ViewBag.Title = "Bloglar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<a class="btn btn-primary" href="/AdminAnasayfa/YeniBlog">YENİ BLOG</a>
+@using (Html.BeginForm("Bloglar","AdminAnasayfa",FormMethod.Get))
+{
+
+<div class="search-field d-none d-xl-block">
+    <form class="d-flex align-items-center h-100" action="#">
+        <div class="input-group">
+            <div class="input-group-prepend bg-transparent">
+                <i class="input-group-text border-0 mdi mdi-magnify"></i>
+            </div>
+            <input type="text" name="p" class="form-control bg-transparent border-0" placeholder="Arayınız">
+        </div>
+    </form>
+</div>
+}
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>RESİM</th>
+        <th>BAŞLIK</th>
+        <th>AÇIKLAMA</th>
+        <th>GÜNCELLE</th>
+        <th>SİL</th>
+        <th>DETAYLAR</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <th>@x.ID</th>
+            <th><img style="border-radius:0px; width:100px; height:auto;" src="~/IMG/@x.BlogImage"></th>
+            <th>@x.Baslik.Substring(0, 20)</th>
+            <th>@x.Aciklama.Substring(0,50)</th>
+            <th><a class="btn btn-warning" href="/AdminAnasayfa/BlogGuncelle/@x.ID">GÜNCELLE</a></th>
+            <td>@Html.ActionLink("Sil", "Sil", new { id = x.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Silmek istediğinize emin misiniz');" })</td>
+            <th><a class="btn btn-info" href="/AdminAnasayfa/BlogDetay/@x.ID">DETAYLAR</a></th>
+        </tr>
+    }
+</table>
+
+@if (TempData["ekle"] != null)  
+{
+    <script>
+
+        toastr["warning"]("PERSONEL EKLENDİ")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}
+
+@if (TempData["guncelle"] != null)
+{
+    <script>
+
+        toastr["warning"]("PERSONEL GÜNCELLENDİ")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}

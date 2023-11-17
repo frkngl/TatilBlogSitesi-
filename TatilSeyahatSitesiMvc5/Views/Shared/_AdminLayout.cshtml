@@ -1,0 +1,186 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Connect Plus</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/adminweb/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/adminweb/assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="~/adminweb/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="~/adminweb/assets/vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/adminweb/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="~/adminweb/assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="~/adminweb/assets/images/favicon.png" />
+</head>
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="/AdminAnasayfa/Index"><h3 style="color:white;">TATİL DELİSİ ADMİN PANEL</h3></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-stretch">
+
+                
+
+                @{ TatilSeyahatSitesiMvc5.Models.Mvc5TatilSeyehatEntities db = new TatilSeyahatSitesiMvc5.Models.Mvc5TatilSeyehatEntities();
+                    string mail = Session["username"].ToString();
+                    var bukim = db.TBLADMIN.Where(x => x.KullanıcıAdı == mail).FirstOrDefault();
+                }
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item nav-profile dropdown">
+                    <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <div class="nav-profile-img">
+                            <img src="~/adminweb/assets/images/faces/face28.png" alt="image">
+                        </div>
+                        <div class="nav-profile-text">
+                            <p class="mb-1 text-black">@bukim.KullanıcıAdı</p>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu navbar-dropdown dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="profileDropdown" data-x-placement="bottom-end">
+                        <div class="p-3 text-center bg-primary">
+                            <img class="img-avatar img-avatar48 img-avatar-thumb" src="~/adminweb/assets/images/faces/face28.png" alt="">
+                        </div>
+                        <div class="p-2">
+                            <h5 class="dropdown-header text-uppercase pl-2 text-dark">Kullanıcı Ayarları</h5>
+                            <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="#">
+                                <span>Profil</span>
+                                <span class="p-0">
+                                    <span class="badge badge-success">1</span>
+                                    <i class="mdi mdi-account-outline ml-1"></i>
+                                </span>
+                            </a>
+                            <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                <span>Ayarlar</span>
+                                <i class="mdi mdi-settings"></i>
+                            </a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <h5 class="dropdown-header text-uppercase  pl-2 text-dark mt-2">Hareketlilik</h5>
+                            <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="/Login/LogOutt">
+                                <span>Hesabı Kilitle</span>
+                                <i class="mdi mdi-lock ml-1"></i>
+                            </a>
+                            <a class="dropdown-item py-1 d-flex align-items-center justify-content-between" href="/Login/LogOut">
+                                <span>Çıkış</span>
+                                <i class="mdi mdi-logout ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                
+
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                <span class="mdi mdi-menu"></span>
+            </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-category">Düzenleyiciler</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Hakkımızda">
+                            
+                            <span class="menu-title">HAKKIMIZDA</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Bloglar">
+
+                            <span class="menu-title">BLOG</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminYorumlar/Index">
+                            
+                            <span class="menu-title">BLOG YORUMLAR</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Oteller">
+                           
+                            <span class="menu-title">OTELLER</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminYorumlar/OtelYorum">
+                           
+                            <span class="menu-title">OTEL YORUMLAR</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Restaurantlar">
+                           
+                            <span class="menu-title">RESTAURANTLAR</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminYorumlar/RestaurantYorum">
+                           
+                            <span class="menu-title">RESTAURANT YORUMLAR</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Geziler">
+                            
+                            <span class="menu-title">GEZİ YERLERİ</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminYorumlar/MuzelerYorum">
+                            
+                            <span class="menu-title">GEZİ YERLERİ YORUMLAR</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminAnasayfa/Iletisim">
+                          
+                            <span class="menu-title">İLETİŞİM</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div style="display:flex; flex-direction:column; width:100%;">
+
+                @RenderBody()
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/adminweb/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="~/adminweb/assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/adminweb/assets/vendors/jquery-circle-progress/js/circle-progress.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/adminweb/assets/js/off-canvas.js"></script>
+    <script src="~/adminweb/assets/js/hoverable-collapse.js"></script>
+    <script src="~/adminweb/assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="~/adminweb/assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@using TatilSeyahatSitesiMvc5.Models
+@model List<TBLADRES>
+    <style>
+       p a:hover{
+            transition:0.2s;
+            color:white;
+        }
+    </style>
+@foreach (var x in Model)
+{
+<div class="contact-bottom">
+    <div class="contact-left">
+        <div class="contact-add">
+            <h3>İletişim Bilgileri</h3>
+            <p style="font-size:16px;"> @x.Adres</p>
+            <p style="font-size:16px;">Telefon:@x.Telefon</p>
+            <p style="font-size:16px;">Mail: <a style="text-decoration:none;" href="mailto:@x.Mail">frknglww@gmai.com</a></p>
+        </div>
+
+    </div>
+    <div class="contact-map">
+        <iframe src="@x.Konum" width="580" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="clear"></div>
+</div>
+}
+

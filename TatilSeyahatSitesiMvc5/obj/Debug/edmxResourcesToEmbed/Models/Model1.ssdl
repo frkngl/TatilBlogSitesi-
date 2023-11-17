@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Mvc5TatilSeyehatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TBLACIKLAMA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FotoUrl" Type="nvarchar" MaxLength="250" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLADMIN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullanıcıAdı" Type="nvarchar(max)" />
+    <Property Name="Sifre" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLADRES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar(max)" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Adres" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="Telefon" Type="nvarchar(max)" />
+    <Property Name="Konum" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLBLOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar(max)" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="BlogImage" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="TBLILETISIM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="Konu" Type="nvarchar(max)" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLMUZELER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar(max)" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="MuzelerImage" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="TBLMUZEYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar(max)" />
+    <Property Name="Yorum" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="MuzeID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <EntityType Name="TBLOTELLER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar(max)" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="OtellerImage" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="TBLOTELYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar(max)" />
+    <Property Name="Yorum" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="OTELID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <EntityType Name="TBLRESTAURANT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Baslik" Type="nvarchar(max)" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="RestaurantImage" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="TBLRESTAURANTYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar(max)" />
+    <Property Name="Yorum" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="RestaurantID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <EntityType Name="TBLYORUMLAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar(max)" />
+    <Property Name="Mail" Type="nvarchar(max)" />
+    <Property Name="Yorum" Type="nvarchar(max)" />
+    <Property Name="BLOGID" Type="int" />
+    <Property Name="Tarih" Type="datetime" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <Association Name="FK_TBLMUZEYORUM_TBLMUZELER">
+    <End Role="TBLMUZELER" Type="Self.TBLMUZELER" Multiplicity="0..1" />
+    <End Role="TBLMUZEYORUM" Type="Self.TBLMUZEYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLMUZELER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLMUZEYORUM">
+        <PropertyRef Name="MuzeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLOTELYORUM_TBLOTELLER">
+    <End Role="TBLOTELLER" Type="Self.TBLOTELLER" Multiplicity="0..1" />
+    <End Role="TBLOTELYORUM" Type="Self.TBLOTELYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLOTELLER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLOTELYORUM">
+        <PropertyRef Name="OTELID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLRESTAURANTYORUM_TBLRESTAURANT">
+    <End Role="TBLRESTAURANT" Type="Self.TBLRESTAURANT" Multiplicity="0..1" />
+    <End Role="TBLRESTAURANTYORUM" Type="Self.TBLRESTAURANTYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLRESTAURANT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLRESTAURANTYORUM">
+        <PropertyRef Name="RestaurantID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLYORUMLAR_TBLBLOG">
+    <End Role="TBLBLOG" Type="Self.TBLBLOG" Multiplicity="0..1" />
+    <End Role="TBLYORUMLAR" Type="Self.TBLYORUMLAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLBLOG">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLYORUMLAR">
+        <PropertyRef Name="BLOGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Mvc5TatilSeyehatModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLACIKLAMA" EntityType="Self.TBLACIKLAMA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLADMIN" EntityType="Self.TBLADMIN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLADRES" EntityType="Self.TBLADRES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLBLOG" EntityType="Self.TBLBLOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLILETISIM" EntityType="Self.TBLILETISIM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLMUZELER" EntityType="Self.TBLMUZELER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLMUZEYORUM" EntityType="Self.TBLMUZEYORUM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLOTELLER" EntityType="Self.TBLOTELLER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLOTELYORUM" EntityType="Self.TBLOTELYORUM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLRESTAURANT" EntityType="Self.TBLRESTAURANT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLRESTAURANTYORUM" EntityType="Self.TBLRESTAURANTYORUM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLYORUMLAR" EntityType="Self.TBLYORUMLAR" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TBLMUZEYORUM_TBLMUZELER" Association="Self.FK_TBLMUZEYORUM_TBLMUZELER">
+      <End Role="TBLMUZELER" EntitySet="TBLMUZELER" />
+      <End Role="TBLMUZEYORUM" EntitySet="TBLMUZEYORUM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLOTELYORUM_TBLOTELLER" Association="Self.FK_TBLOTELYORUM_TBLOTELLER">
+      <End Role="TBLOTELLER" EntitySet="TBLOTELLER" />
+      <End Role="TBLOTELYORUM" EntitySet="TBLOTELYORUM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLRESTAURANTYORUM_TBLRESTAURANT" Association="Self.FK_TBLRESTAURANTYORUM_TBLRESTAURANT">
+      <End Role="TBLRESTAURANT" EntitySet="TBLRESTAURANT" />
+      <End Role="TBLRESTAURANTYORUM" EntitySet="TBLRESTAURANTYORUM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLYORUMLAR_TBLBLOG" Association="Self.FK_TBLYORUMLAR_TBLBLOG">
+      <End Role="TBLBLOG" EntitySet="TBLBLOG" />
+      <End Role="TBLYORUMLAR" EntitySet="TBLYORUMLAR" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

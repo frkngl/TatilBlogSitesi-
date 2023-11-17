@@ -1,0 +1,39 @@
+﻿@model TatilSeyahatSitesiMvc5.Models.TBLBLOG
+@{
+    ViewBag.Title = "BlogDetay";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+<h2 style="display:flex; justify-content:center;">Blog Detay</h2>
+<br />
+    <form class="form-group d-flex flex-column ">
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.ID, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @style = "width:100%; height:30px;", @readonly = "readonly" })
+        </div>
+        <br />
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Baslik, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextBoxFor(x => x.Baslik, new { @class = "form-control", @style = "width:100%; height:30px;", @readonly = "readonly" })
+        </div>
+        <br />
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.BlogImage, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            <br />
+            <img src="~/IMG/@Model.BlogImage" width="250" height="200" />
+        </div>
+        <br />
+        <div style="margin:0px 20px 0px 20px;">
+            @Html.LabelFor(x => x.Aciklama, new { @style = "margin-top:5px;   font-size:20px;", required = "required" })
+            @Html.TextAreaFor(x => x.Aciklama, 15,5, new { @class = "form-control", @readonly = "readonly" })
+        </div>
+        <div style="margin:10px 0px 0px 20px;">
+           <a class="btn btn-warning" href="/AdminAnasayfa/Bloglar">Geri Gel</a>
+        </div>
+    </form>
+
+

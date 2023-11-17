@@ -1,0 +1,45 @@
+﻿@using TatilSeyahatSitesiMvc5.Models
+@model List<TBLRESTAURANT>
+<style>
+    .rehber .box {
+        border: 1px solid;
+        width: 301px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+        .rehber .box .boxs {
+            display: flex;
+        }
+
+            .rehber .box .boxs p {
+                margin-left: 1rem;
+            }
+</style>
+
+<div class="rehberdown">
+    <h4 style="text-align:center;">Yeni Gitdiğim Restaurant</h4>
+    @foreach (var x in Model)
+    {
+        <a style="text-decoration:none; color: #a2365a;" href="~/Restaurantlar/RestaurantDetay/@x.ID">
+            <div class="box">
+                <div class="boxs">
+                    <img style="width: 100px; height: 78px; border-radius: 8px;" src="~/IMG/@x.RestaurantImage">
+                    <p>@x.Aciklama.Substring(0, 80) </p>
+                </div>
+            </div>
+        </a>
+    }
+</div>
+    
+
+    
+    @*<div style="height:70px; border-radius:8px;" class="restaurantcık">
+        <div class="bot-img">
+            <img style="height:70px; width:120px; border-radius:8px;" src="~/IMG/@x.RestaurantImage" alt="" />
+        </div>
+        <div class="bot-desc">
+            <a style="font-weight:500; font-style:normal; text-decoration:none; cursor:pointer;" href="/Muzeler/MuzelerDetay/@x.ID"><p>@Html.Raw(x.Aciklama.Substring(0, 80)) </p></a>
+        </div>
+        <div class="clear"></div>
+    </div>*@

@@ -1,0 +1,163 @@
+﻿@model TatilSeyahatSitesiMvc5.Models.BlogYorum
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AnasayfaLayout.cshtml";
+}
+<style>
+    .populer {
+        list-style-type: none;
+        display: inline-flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+        .populer .populers {
+            border: 0.1px solid black;
+            height: 40px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin: 2px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+            .populer .populers:hover {
+                background-color: white;
+                color: black;
+                transition: 0.5s;
+            }
+
+   
+    .padding .box2-left .otelcik:hover {
+        box-shadow: 1px 1px 40px 20px white
+    }
+    .rehber{
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+.rehber .box{
+    width: 301px;
+    border-radius: 8px;
+    margin-bottom:20px;
+}
+    .rehber .box:hover {
+        box-shadow: 1px 1px 10px 10px white;
+    }
+.rehber .box .boxs{
+    display: flex;
+    
+}
+.rehber .box .boxs p{
+    margin-left: 0.5rem;
+    margin-top:0.5rem;
+    font-size:12px;
+    font-weight:600;
+}
+
+</style>
+        @*<div style="display:flex; justify-content:center;" class="banner">
+                    <div style="background-color:black;  width:100%; height:555px;" class="slider" >
+                        <ul class="rslides" id="slider1">
+                            @foreach (var x in Model.muzeler)
+                            {
+                                <li><img style="background-color: black; height: 555px; width: 100%;" src="~/IMG/@x.MuzelerImage"  alt=""></li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div class="clear"></div>*@
+        
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        @{ int adet = Model.muzeler.Count();}
+        @for (int a = 1; a < adet; a++)
+        {
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="@a" aria-label="Slide 2"></button>
+
+        }
+
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="height:25%;" src="~/IMG/@Model.muzeler.OrderByDescending(x=>x.ID).FirstOrDefault().MuzelerImage" class="d-block w-100" alt="...">
+        </div>
+        @foreach (var x in Model.muzeler.OrderByDescending(x=>x.ID).Skip(1).ToList())
+        {
+<div class="carousel-item">
+    <img style="height:700px;" src="~/IMG/@x.MuzelerImage" class="d-block w-100" alt="...">
+</div>
+        }
+        
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>  
+<div class="header-banner">
+    <div class="container">
+            @Html.Action("Partial1", "Anasayfa")
+            @Html.Action("Partial2", "Anasayfa")
+       
+        <div class="rehber">
+            <div class="rehberdown">
+                <h4 style="text-align:center;">Yeni Gezdiğim Yerler</h4>
+                @foreach (var o in Model.muzeler2)
+                {
+                    <a style="text-decoration:none; color: #a2365a;" href="~/Muzeler/MuzelerDetay/@o.ID">
+                        <div class="box">
+                            <div class="boxs">
+                                <img style="width: 100px; height: 78px;border-radius: 8px;" src="~/IMG/@o.MuzelerImage">
+                                <p>@o.Aciklama.Substring(0, 80) </p>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+            @Html.Action("Partial4", "Anasayfa")
+
+            @Html.Action("Partial5", "Anasayfa")
+           
+            @*<div class="grids">
+            <div style="width:100%;display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:center;" class="">
+                <div class="">
+                    @{
+                        var top10 = Model.muzeler2.OrderByDescending(x => x.ID).Take(1).ToList();
+                        int i = 0;
+                    }
+                </div>
+                <div style="width:100%;" class="padding">
+                    <div style="width:100%;display:flex; flex-direction:row; justify-content:space-evenly;">
+                        <div class="box2-left">
+                            <h4 style="text-align:center;" ;>Son Gezdiğim Yerler</h4>
+                            @foreach (var z in Model.muzeler2)
+                            {
+                                <div style="height:70px; border-radius:8px;" class="otelcik">
+                                    <div class="bot-img">
+                                        <img style="height: 70px; width: 120px; border-radius: 8px;" src="~/IMG/@z.MuzelerImage" alt="" />
+                                    </div>
+                                    <div class="bot-desc1">
+                                        <a style="font-weight:500; font-style:normal; text-decoration:none; cursor:pointer;" href="/Muzeler/MuzelerDetay/@z.ID"><p>@Html.Raw(z.Aciklama.Substring(0, 80)) </p></a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                    }
+                            </div>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>*@
+        </div>
+    </div>
+</div>

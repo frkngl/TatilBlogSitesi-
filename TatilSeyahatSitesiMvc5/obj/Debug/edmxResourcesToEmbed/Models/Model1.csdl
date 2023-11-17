@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Mvc5TatilSeyehatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBLADMIN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullanıcıAdı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLADRES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Konum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLBLOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BlogImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TBLYORUMLAR" Relationship="Self.FK_TBLYORUMLAR_TBLBLOG" FromRole="TBLBLOG" ToRole="TBLYORUMLAR" />
+  </EntityType>
+  <EntityType Name="TBLILETISIM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdSoyad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Konu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLYORUMLAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BLOGID" Type="Int32" />
+    <NavigationProperty Name="TBLBLOG" Relationship="Self.FK_TBLYORUMLAR_TBLBLOG" FromRole="TBLYORUMLAR" ToRole="TBLBLOG" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="DURUM" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_TBLYORUMLAR_TBLBLOG">
+    <End Role="TBLBLOG" Type="Self.TBLBLOG" Multiplicity="0..1" />
+    <End Role="TBLYORUMLAR" Type="Self.TBLYORUMLAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLBLOG">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLYORUMLAR">
+        <PropertyRef Name="BLOGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Mvc5TatilSeyehatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TBLADMIN" EntityType="Self.TBLADMIN" />
+    <EntitySet Name="TBLADRES" EntityType="Self.TBLADRES" />
+    <EntitySet Name="TBLBLOG" EntityType="Self.TBLBLOG" />
+    <EntitySet Name="TBLILETISIM" EntityType="Self.TBLILETISIM" />
+    <EntitySet Name="TBLYORUMLAR" EntityType="Self.TBLYORUMLAR" />
+    <AssociationSet Name="FK_TBLYORUMLAR_TBLBLOG" Association="Self.FK_TBLYORUMLAR_TBLBLOG">
+      <End Role="TBLBLOG" EntitySet="TBLBLOG" />
+      <End Role="TBLYORUMLAR" EntitySet="TBLYORUMLAR" />
+    </AssociationSet>
+    <EntitySet Name="TBLACIKLAMA" EntityType="Mvc5TatilSeyehatModel.TBLACIKLAMA" />
+    <EntitySet Name="TBLMUZELER" EntityType="Mvc5TatilSeyehatModel.TBLMUZELER" />
+    <EntitySet Name="TBLMUZEYORUM" EntityType="Mvc5TatilSeyehatModel.TBLMUZEYORUM" />
+    <EntitySet Name="TBLOTELLER" EntityType="Mvc5TatilSeyehatModel.TBLOTELLER" />
+    <EntitySet Name="TBLOTELYORUM" EntityType="Mvc5TatilSeyehatModel.TBLOTELYORUM" />
+    <EntitySet Name="TBLRESTAURANT" EntityType="Mvc5TatilSeyehatModel.TBLRESTAURANT" />
+    <EntitySet Name="TBLRESTAURANTYORUM" EntityType="Mvc5TatilSeyehatModel.TBLRESTAURANTYORUM" />
+    <AssociationSet Name="FK_TBLMUZEYORUM_TBLMUZELER" Association="Mvc5TatilSeyehatModel.FK_TBLMUZEYORUM_TBLMUZELER">
+      <End Role="TBLMUZELER" EntitySet="TBLMUZELER" />
+      <End Role="TBLMUZEYORUM" EntitySet="TBLMUZEYORUM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLOTELYORUM_TBLOTELLER" Association="Mvc5TatilSeyehatModel.FK_TBLOTELYORUM_TBLOTELLER">
+      <End Role="TBLOTELLER" EntitySet="TBLOTELLER" />
+      <End Role="TBLOTELYORUM" EntitySet="TBLOTELYORUM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLRESTAURANTYORUM_TBLRESTAURANT" Association="Mvc5TatilSeyehatModel.FK_TBLRESTAURANTYORUM_TBLRESTAURANT">
+      <End Role="TBLRESTAURANT" EntitySet="TBLRESTAURANT" />
+      <End Role="TBLRESTAURANTYORUM" EntitySet="TBLRESTAURANTYORUM" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TBLACIKLAMA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FotoUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TBLMUZELER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="MuzelerImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TBLMUZEYORUM" Relationship="Mvc5TatilSeyehatModel.FK_TBLMUZEYORUM_TBLMUZELER" FromRole="TBLMUZELER" ToRole="TBLMUZEYORUM" />
+  </EntityType>
+  <EntityType Name="TBLMUZEYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MuzeID" Type="Int32" />
+    <NavigationProperty Name="TBLMUZELER" Relationship="Mvc5TatilSeyehatModel.FK_TBLMUZEYORUM_TBLMUZELER" FromRole="TBLMUZEYORUM" ToRole="TBLMUZELER" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="DURUM" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TBLOTELLER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="OtellerImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TBLOTELYORUM" Relationship="Mvc5TatilSeyehatModel.FK_TBLOTELYORUM_TBLOTELLER" FromRole="TBLOTELLER" ToRole="TBLOTELYORUM" />
+  </EntityType>
+  <EntityType Name="TBLOTELYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OTELID" Type="Int32" />
+    <NavigationProperty Name="TBLOTELLER" Relationship="Mvc5TatilSeyehatModel.FK_TBLOTELYORUM_TBLOTELLER" FromRole="TBLOTELYORUM" ToRole="TBLOTELLER" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="DURUM" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TBLRESTAURANT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="RestaurantImage" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TBLRESTAURANTYORUM" Relationship="Mvc5TatilSeyehatModel.FK_TBLRESTAURANTYORUM_TBLRESTAURANT" FromRole="TBLRESTAURANT" ToRole="TBLRESTAURANTYORUM" />
+  </EntityType>
+  <EntityType Name="TBLRESTAURANTYORUM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RestaurantID" Type="Int32" />
+    <NavigationProperty Name="TBLRESTAURANT" Relationship="Mvc5TatilSeyehatModel.FK_TBLRESTAURANTYORUM_TBLRESTAURANT" FromRole="TBLRESTAURANTYORUM" ToRole="TBLRESTAURANT" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="DURUM" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_TBLMUZEYORUM_TBLMUZELER">
+    <End Type="Mvc5TatilSeyehatModel.TBLMUZELER" Role="TBLMUZELER" Multiplicity="0..1" />
+    <End Type="Mvc5TatilSeyehatModel.TBLMUZEYORUM" Role="TBLMUZEYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLMUZELER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLMUZEYORUM">
+        <PropertyRef Name="MuzeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLOTELYORUM_TBLOTELLER">
+    <End Type="Mvc5TatilSeyehatModel.TBLOTELLER" Role="TBLOTELLER" Multiplicity="0..1" />
+    <End Type="Mvc5TatilSeyehatModel.TBLOTELYORUM" Role="TBLOTELYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLOTELLER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLOTELYORUM">
+        <PropertyRef Name="OTELID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLRESTAURANTYORUM_TBLRESTAURANT">
+    <End Type="Mvc5TatilSeyehatModel.TBLRESTAURANT" Role="TBLRESTAURANT" Multiplicity="0..1" />
+    <End Type="Mvc5TatilSeyehatModel.TBLRESTAURANTYORUM" Role="TBLRESTAURANTYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLRESTAURANT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLRESTAURANTYORUM">
+        <PropertyRef Name="RestaurantID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
