@@ -195,9 +195,9 @@ namespace TatilSeyahatSitesiMvc5.Controllers
 
         public ActionResult SilMuzeler(int id)
         {
-            var silinecekyorum = db.TBLRESTAURANTYORUM.Find(id);
+            var silinecekyorum = db.TBLMUZEYORUM.Find(id);
 
-            db.TBLRESTAURANTYORUM.Remove(silinecekyorum);
+            db.TBLMUZEYORUM.Remove(silinecekyorum);
             db.SaveChanges();
             TempData["sil"] = "asdf";
 

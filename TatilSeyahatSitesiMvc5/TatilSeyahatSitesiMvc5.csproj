@@ -131,6 +131,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminAnasayfaController.cs" />
+    <Compile Include="Controllers\AdminUyelerController.cs" />
     <Compile Include="Controllers\AdminYorumlarController.cs" />
     <Compile Include="Controllers\AnasayfaController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
@@ -1003,6 +1004,7 @@
     <Content Include="adminweb\screenshot.jpg" />
     <Content Include="Assets\bootstrap.bundle.min.js" />
     <Content Include="Assets\bootstrap.min.css" />
+    <Content Include="Assets\StyleSheet1.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -1022,17 +1024,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="IMG\6918596_stock-vector-vacation-flat-icon.ico" />
     <Content Include="IMG\Burj Khalifa Observation Deck Ticket in Dubai.jpg" />
     <Content Include="IMG\dedeman-palandoken.jpg" />
     <Content Include="IMG\eiffel-kulesi-paris-2.jpg" />
     <Content Include="IMG\fuji3shutter-1.jpg" />
-    <Content Include="IMG\Hakkimizda.jpeg" />
     <Content Include="IMG\Hotel-The-Peninsula-Paris.jpg" />
     <Content Include="IMG\indir %281%29.jpeg" />
     <Content Include="IMG\indir %282%29.jpeg" />
     <Content Include="IMG\indir %283%29.jpeg" />
     <Content Include="IMG\indir %284%29.jpeg" />
-    <Content Include="IMG\indir.jpeg" />
     <Content Include="IMG\jonatan-pie-h8nxGssjQXs-unsplash.jpg" />
     <Content Include="IMG\KayseriYaglamasi.jpg" />
     <Content Include="IMG\kudus.jpg" />
@@ -1387,6 +1388,9 @@
     <Content Include="Views\AdminYorumlar\MuzelerYorum.cshtml" />
     <Content Include="Views\AdminYorumlar\YorumDetayMuzeler.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Blog\BlogDetayy.cshtml" />
+    <Content Include="Views\AdminUyeler\Index.cshtml" />
+    <Content Include="Views\AdminUyeler\Uyeler.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,9 @@
+﻿@model TatilSeyahatSitesiMvc5.Models.TBLYORUMLAR
+<h4 style="margin-top:20px;">Yorum Yap</h4>
+<form style="display:flex; flex-direction:column;width:640px;" method="post">
+    <input type="hidden" placeholder="ID" name="BLOGID" value="@ViewBag.deger" required />
+    <input style="padding:5px;margin-bottom:5px;" type="text" placeholder="Kullanıcı Adı" name="KullaniciAdi" required />
+    <input style="padding: 5px; margin-bottom: 5px;" type="text" placeholder="Mail" name="Mail" required />
+    <textarea style="padding: 5px; height: 100px; margin-bottom: 5px; " placeholder="Mesaj Yazın" name="Yorum"></textarea>
+    <button style="background-color: #a2365a; color:white; width:100px;" class="btn" type="submit">Gönder</button>
+</form>

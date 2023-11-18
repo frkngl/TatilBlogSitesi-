@@ -1,0 +1,96 @@
+﻿@using TatilSeyahatSitesiMvc5.Models
+@model List<TBLADMIN>
+@{
+    ViewBag.Title = "Uyeler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{ string isim = "aa";}
+<h2 style="display:flex; justify-content:center;">Admin Yetkilendirme Yeri</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>ID</td>
+        <td>Kullanıcı Adı</td>
+        <td>Yetki</td>
+        <td>SİL</td>
+    </tr>
+    @foreach (var x in Model)
+    {
+        isim = isim + x.ID;
+        <tr>
+
+            <td>@x.ID</td>
+            
+        <td>@x.KullanıcıAdı</td>
+        <td>
+            @if (x.Yetki != null)
+            {
+                <a href="/AdminUyeler/GosterGizle/@x.ID"
+                   class="btn btn-warning btn-sm">Yetkisini Al</a>
+            }
+            else
+            {
+                <a href="/AdminUyeler/GosterGizle/@x.ID"
+                   class="btn btn-success btn-sm">Yetkilendir</a>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Sil", "Sil", new { id = x.ID }, new { @class = "btn btn-danger", onclick = "return confirm" + " ('Bu kaydı silmek istediğinize emin misiniz?');" })
+        </td>
+    </tr>
+}
+</table>
+
+@if (TempData["ekle"] != null)
+{
+    <script>
+
+        toastr["warning"]("PERSONEL EKLENDİ")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}
+
+@if (TempData["guncelle"] != null)
+{
+    <script>
+
+        toastr["warning"]("PERSONEL GÜNCELLENDİ")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}
+

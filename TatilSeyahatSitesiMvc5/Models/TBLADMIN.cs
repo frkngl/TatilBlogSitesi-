@@ -17,5 +17,6 @@ namespace TatilSeyahatSitesiMvc5.Models
         public int ID { get; set; }
         public string KullanıcıAdı { get; set; }
         public string Sifre { get; set; }
+        public Nullable<bool> Yetki { get; set; }
     }
 }

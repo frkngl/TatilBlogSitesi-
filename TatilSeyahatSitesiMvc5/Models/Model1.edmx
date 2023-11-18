@@ -30,6 +30,7 @@
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="KullanıcıAdı" Type="nvarchar(max)" />
           <Property Name="Sifre" Type="nvarchar(max)" />
+          <Property Name="Yetki" Type="bit" />
         </EntityType>
         <EntityType Name="TBLADRES">
           <Key>
@@ -241,6 +242,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="KullanıcıAdı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Sifre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Yetki" Type="Boolean" />
         </EntityType>
         <EntityType Name="TBLADRES">
           <Key>
@@ -467,6 +469,7 @@
           <EntitySetMapping Name="TBLADMIN">
             <EntityTypeMapping TypeName="Mvc5TatilSeyehatModel.TBLADMIN">
               <MappingFragment StoreEntitySet="TBLADMIN">
+                <ScalarProperty Name="Yetki" ColumnName="Yetki" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="KullanıcıAdı" ColumnName="KullanıcıAdı" />
                 <ScalarProperty Name="Sifre" ColumnName="Sifre" />

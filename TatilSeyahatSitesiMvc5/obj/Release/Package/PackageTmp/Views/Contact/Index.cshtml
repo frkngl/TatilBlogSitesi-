@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AnasayfaLayout.cshtml";
+}
+<style>
+  .btn:hover {
+        background-color: white;
+        color: #a2365a;
+    }
+</style>
+<div class="contact">
+    <div class="wrap">
+        <div class="contact-top">
+            <h3>Bana Mail Atabilirsiniz</h3>
+        </div>
+        <div></div>
+        <div style="color:red;">
+            @if (ViewBag.Success == true)
+            {
+                <span>Mesajınız başarıyla gönderilmiştir.</span>
+            }
+        </div>
+        <form class="cmxform" id="contactForm" method="post">
+            <div class="form">
+
+                <div>
+                    <input type="text" class="form-control" id="AdiSoyadi" placeholder="AD SOYAD" name="AdiSoyadi" required="required" data-validation-required-message="LÜTFEN İSİM GİRİNİZ">
+                </div>
+                <div>
+                    <input type="text" class="form-control" id="Email" placeholder="MAIL" name="Email" required="required" data-validation-required-message="LÜTFEN EMAİL GİRİNİZ">
+                </div>
+                <div>
+                    <input type="text" class="form-control" id="Subject" placeholder="KONU" name="Subject" required="required" data-validation-required-message="LÜTFEN KONU GİRİNİZ">
+                </div>
+                <div>
+                    <p><button style="background-color: #a2365a; color:white;" class="btn" type="submit" id="sendMessageButton">Gönder</button></p>
+                </div>
+            </div>
+            <div class="form1">
+                <div>
+                    <textarea class="form-control" id="Message" placeholder="MESAJ YAZ" name="Message" required="required" data-validation-required-message="MESAJ KISMINI BOŞ BIRAKMAYINIZ"></textarea>
+                </div>
+            </div>
+        </form>
+            <div class="clear"></div>
+            @Html.Action("Partial", "Contact")
+            <div class="clear"></div>
+        </div>
+    </div>
+
+

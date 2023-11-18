@@ -26,13 +26,14 @@ namespace TatilSeyahatSitesiMvc5.Controllers
                 FormsAuthentication.SetAuthCookie(varmi.KullanıcıAdı, false);
                 Session["username"] = varmi.KullanıcıAdı;
                 Session["adsoyad"] = varmi.KullanıcıAdı;
+                Session["yetki"] = varmi.Yetki;
                 return RedirectToAction("Index", "AdminAnasayfa");
             }
             else
             {
-                TempData["hata"] = 1;
-                return View();
+                ViewBag.hata = "HATALI GİRİŞ YAPTINIZ";
             }
+            return View();
 
         }
         public ActionResult LogOut()

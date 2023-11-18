@@ -1,0 +1,3772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\frkng\OneDrive\Masaüstü\site</_PublishTargetUrl>
+    <History>True|2023-11-18T20:01:11.9757036Z;True|2023-11-17T21:50:21.1367102+03:00;False|2023-11-17T21:49:43.9197838+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="adminweb/.gitattributes">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/.gitignore">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/css/style.css">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/css/style.css.map">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Black.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Black.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Black.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Black.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Bold.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Bold.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Bold.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Bold.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Light.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Light.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Light.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Light.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Regular.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Regular.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Regular.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-Regular.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-SemiBold.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-SemiBold.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-SemiBold.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Nunito/Nunito-SemiBold.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Bold.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Bold.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Bold.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Bold.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Light.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Light.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Light.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Light.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Medium.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Medium.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Medium.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Medium.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Regular.eot">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Regular.ttf">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Regular.woff">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/fonts/Ubuntu/Ubuntu-Regular.woff2">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/auth/lockscreen-bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/auth/login-bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/auth/register-bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/brand_icons/bitmap.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/brand_icons/oval-copy.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/brand_icons/oval.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_10.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_11.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_12.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/carousel/banner_9.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/profile_image.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/chat/thumb_image8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/circle.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/circle.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/img_1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/img_2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/img_3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/dashboard/img_4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/fb.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/mail-image.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/medium.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/slack.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/twitter.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/email/youtube.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces-clipart/pic-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces-clipart/pic-2.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces-clipart/pic-3.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces-clipart/pic-4.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face10.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face11.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face12.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face13.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face14.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face15.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face16.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face17.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face18.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face19.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face20.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face21.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face22.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face23.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face24.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face25.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face26.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face27.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face28.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/faces/face9.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/favicon.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/001-interface-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/002-tool.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/003-interface.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/004-folder-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/005-database.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/006-record.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/007-folder.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/128/008-archive.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/001-interface-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/002-tool.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/003-interface.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/004-folder-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/005-database.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/006-record.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/007-folder.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/256/008-archive.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/001-interface-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/002-tool.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/003-interface.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/004-folder-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/005-database.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/006-record.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/007-folder.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/512/008-archive.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/001-interface-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/002-tool.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/003-interface.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/004-folder-1.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/005-database.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/006-record.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/007-folder.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/64/008-archive.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/chrome.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/corrupted-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/css.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/database.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/doc-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/document.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/download-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/folder-open.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/folder.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/git-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/html.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/js-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/pdf.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/server-2.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/server.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/zip-file.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/extension/zip.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/firefox.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/icon-3.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/icon-google.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/Internet-Explorer.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/opera.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/Safari.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/file-icons/vivaldi.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/lightbox/play-button.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/lightbox/thumb-v-v-1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/lightbox/thumb-v-v-2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/lightbox/thumb-v-y-1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/lightbox/thumb-v-y-2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/logo-dark.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/logo-mini.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/logo.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/apple-watch.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/apple-watch_2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/baf.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/ball.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/beats-headphone.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/headphone.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/Homepod.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/homepod_small.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/imac.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/iphone-x.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/iphone.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/macbook-pro.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/magic-mouse.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/shoe.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/shoe_2.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/shoe_3.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images/watch.jpeg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image10.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image11.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image12.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/product_images_2/thumb_image9.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/10.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/11.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/12.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/13.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/14.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/15.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/1280x768/9.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/10.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/11.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/12.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/13.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/14.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/15.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/3.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/4.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/5.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/6.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/7.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/8.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/300x300/9.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/angular-4.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/bg_1.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/bootstrap-stack.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/charts.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/dashboard.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/e-commerce.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/editors.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/email.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/footer_bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/forms.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/html5.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/invoice_banner.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/lockscreen-bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/Login_bg.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/Login_bg2.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/Mac.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/modal.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/popup.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/weather.svg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/samples/widgets.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/screenshots/horizontal-dark.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/screenshots/horizontal-light.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/screenshots/vertical-dark.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/screenshots/vertical-light.jpg">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/blue.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/dark.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/flag.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/green.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/jsgrid-icons.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/red.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/images/sprites/yellow.png">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/chart.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/codemirror.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/dashboard.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/file-upload.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/hoverable-collapse.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/misc.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/off-canvas.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/select2.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/settings.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/todolist.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/js/typeahead.js">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/plugin-overrides/_select2.scss">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/plugin-overrides/_typeahead.scss">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_badges.scss">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_bootstrap-progress.scss">
+      <publishTime>11/11/2023 13:39:31</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_breadcrumbs.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_buttons.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_cards.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_chat.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_checkbox-radio.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_dropdown.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_forms.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_icons.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_lists.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_pagination.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_preview.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_tables.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/components/_tabs.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_animation.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_background.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_badges.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_blockqoute.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_breadcrumbs.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_buttons.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_cards.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/mixins/_misc.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/style.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_auth.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_background.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_dashboard.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_demo.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_fonts.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_footer.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_functions.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_layouts.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_lock-screen.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_misc.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_navbar.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_reset.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_sidebar.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_typography.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_utilities.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_variables.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_vertical-wrapper.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/scss/_widget-grid.scss">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/chart.js/Chart.min.js">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/codemirror/ambiance.css">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/codemirror/codemirror.css">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/codemirror/codemirror.js">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/codemirror/javascript.js">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/codemirror/shell.js">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/css/vendor.bundle.base.css">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/css/flag-icon.min.css">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ad.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ae.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/af.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ag.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ai.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/al.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/am.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ao.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/aq.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ar.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/as.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/at.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/au.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/aw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ax.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/az.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ba.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bb.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bd.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/be.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bi.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bj.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bo.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bq.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/br.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bs.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bt.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bv.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/by.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/bz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ca.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cc.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cd.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ch.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ci.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ck.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/co.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cv.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cx.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cy.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/cz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/de.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/dj.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/dk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/dm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/do.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/dz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ec.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ee.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/eg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/eh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/er.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/es-ca.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/es.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/et.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/eu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fi.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fj.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fo.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/fr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ga.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gb-eng.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gb-nir.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gb-sct.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gb-wls.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gb.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gd.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ge.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gi.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gp.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gq.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gs.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gt.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/gy.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/hk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/hm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/hn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/hr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ht.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/hu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/id.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ie.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/il.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/im.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/in.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/io.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/iq.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ir.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/is.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/it.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/je.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/jm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/jo.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/jp.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ke.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ki.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/km.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kp.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ky.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/kz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/la.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lb.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lc.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/li.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ls.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lt.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/lv.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ly.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ma.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mc.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/md.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/me.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ml.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mo.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mp.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mq.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ms.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mt.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mv.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mx.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/my.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/mz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/na.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nc.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ne.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ng.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ni.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/no.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/np.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nu.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/nz.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/om.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pa.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pe.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pf.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ph.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pr.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ps.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pt.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/pw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/py.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/qa.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/re.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ro.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/rs.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ru.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/rw.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sa.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sb.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sc.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sd.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/se.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sg.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sh.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/si.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sj.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sk.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sl.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sm.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sn.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/so.svg">
+      <publishTime>11/11/2023 13:39:32</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ss.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/st.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sx.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sy.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/sz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/td.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/th.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/to.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/tz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ua.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ug.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/um.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/un.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/us.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/uy.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/uz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/va.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/vc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ve.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/vg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/vi.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/vn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/vu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/wf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ws.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/xk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/ye.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/yt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/za.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/zm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/1x1/zw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ad.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ae.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/af.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ag.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ai.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/al.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/am.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ao.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/aq.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ar.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/as.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/at.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/au.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/aw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ax.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/az.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ba.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bb.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bd.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/be.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bi.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bo.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bq.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/br.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bs.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/by.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/bz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ca.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cd.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ch.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ci.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ck.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/co.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cx.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cy.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/cz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/de.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/dj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/dk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/dm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/do.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/dz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ec.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ee.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/eg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/eh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/er.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/es-ca.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/es.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/et.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/eu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fi.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fo.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/fr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ga.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gb-eng.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gb-nir.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gb-sct.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gb-wls.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gb.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gd.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ge.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gi.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gp.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gq.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gs.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/gy.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/hk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/hm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/hn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/hr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ht.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/hu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/id.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ie.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/il.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/im.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/in.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/io.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/iq.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ir.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/is.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/it.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/je.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/jm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/jo.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/jp.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ke.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ki.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/km.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kp.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ky.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/kz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/la.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lb.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/li.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ls.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/lv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ly.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ma.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/md.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/me.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ml.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mo.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mp.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mq.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ms.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mx.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/my.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/mz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/na.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ne.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ng.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ni.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/no.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/np.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nu.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/nz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/om.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pa.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pe.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ph.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ps.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/pw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/py.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/qa.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/re.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ro.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/rs.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ru.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/rw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sa.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sb.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sd.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/se.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sh.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/si.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/so.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ss.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/st.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sx.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sy.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/sz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tc.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/td.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tf.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tg.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/th.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tj.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tk.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tl.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tm.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tn.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/to.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tr.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tt.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tv.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tw.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/tz.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ua.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ug.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/um.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/un.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/us.svg">
+      <publishTime>11/11/2023 13:39:33</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/uy.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/uz.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/va.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/vc.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ve.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/vg.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/vi.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/vn.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/vu.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/wf.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ws.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/xk.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/ye.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/yt.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/za.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/zm.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/flag-icon-css/flags/4x3/zw.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/css/font-awesome.min.css">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/jquery-circle-progress/js/circle-progress.min.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/js/bootstrap.min.js.map">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/js/vendor.bundle.base.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/css/materialdesignicons.min.css">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/css/materialdesignicons.min.css.map">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/fonts/materialdesignicons-webfont.eot">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/fonts/materialdesignicons-webfont.ttf">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/moment/moment.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/moment/moment.min.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/progressbar.js/progressbar.min.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/pwstabs/jquery.pwstabs.min.css">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/assets/vendors/pwstabs/jquery.pwstabs.min.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/CHANGELOG.md">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/documentation/documentation.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/documentation/script.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/documentation/style.css">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/gulp-tasks/inject.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/gulp-tasks/serve.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/gulp-tasks/vendors.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/gulpfile.js">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/index.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/package-lock.json">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/package.json">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/charts/chartjs.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/forms/basic_elements.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/icons/mdi.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/samples/blank-page.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/samples/error-404.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/samples/error-500.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/samples/login.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/samples/register.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/tables/basic-table.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/ui-features/buttons.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/ui-features/dropdowns.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/pages/ui-features/typography.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/partials/_footer.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/partials/_navbar.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/partials/_sidebar.html">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/README.md">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="adminweb/screenshot.jpg">
+      <publishTime>11/11/2023 13:39:34</publishTime>
+    </File>
+    <File Include="Assets/bootstrap.bundle.min.js">
+      <publishTime>11/15/2023 20:01:42</publishTime>
+    </File>
+    <File Include="Assets/bootstrap.min.css">
+      <publishTime>11/15/2023 17:56:07</publishTime>
+    </File>
+    <File Include="Assets/StyleSheet1.css">
+      <publishTime>11/18/2023 18:19:04</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 23:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 23:38:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/27/2022 23:39:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2022 23:42:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2022 23:42:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/27/2022 23:42:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/27/2022 23:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/27/2022 23:42:50</publishTime>
+    </File>
+    <File Include="bin/TatilSeyahatSitesiMvc5.dll">
+      <publishTime>11/18/2023 23:01:05</publishTime>
+    </File>
+    <File Include="bin/TatilSeyahatSitesiMvc5.pdb">
+      <publishTime>11/18/2023 23:01:05</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="IMG/6918596_stock-vector-vacation-flat-icon.ico">
+      <publishTime>11/18/2023 21:50:33</publishTime>
+    </File>
+    <File Include="IMG/Burj Khalifa Observation Deck Ticket in Dubai.jpg">
+      <publishTime>11/10/2023 13:53:15</publishTime>
+    </File>
+    <File Include="IMG/dedeman-palandoken.jpg">
+      <publishTime>11/10/2023 12:52:57</publishTime>
+    </File>
+    <File Include="IMG/eiffel-kulesi-paris-2.jpg">
+      <publishTime>11/10/2023 13:41:37</publishTime>
+    </File>
+    <File Include="IMG/fuji3shutter-1.jpg">
+      <publishTime>11/10/2023 15:09:03</publishTime>
+    </File>
+    <File Include="IMG/Hotel-The-Peninsula-Paris.jpg">
+      <publishTime>11/10/2023 12:57:46</publishTime>
+    </File>
+    <File Include="IMG/indir %281%29.jpeg">
+      <publishTime>11/10/2023 13:44:43</publishTime>
+    </File>
+    <File Include="IMG/indir %282%29.jpeg">
+      <publishTime>11/10/2023 13:46:14</publishTime>
+    </File>
+    <File Include="IMG/indir %283%29.jpeg">
+      <publishTime>11/10/2023 13:49:38</publishTime>
+    </File>
+    <File Include="IMG/indir %284%29.jpeg">
+      <publishTime>11/10/2023 13:49:41</publishTime>
+    </File>
+    <File Include="IMG/jonatan-pie-h8nxGssjQXs-unsplash.jpg">
+      <publishTime>11/14/2023 16:36:20</publishTime>
+    </File>
+    <File Include="IMG/KayseriYaglamasi.jpg">
+      <publishTime>11/10/2023 00:02:30</publishTime>
+    </File>
+    <File Include="IMG/kudus.jpg">
+      <publishTime>11/10/2023 13:53:21</publishTime>
+    </File>
+    <File Include="IMG/NepaldenBaharatlarCenneti.jpg">
+      <publishTime>11/10/2023 00:03:49</publishTime>
+    </File>
+    <File Include="IMG/resim.png">
+      <publishTime>11/14/2023 19:08:36</publishTime>
+    </File>
+    <File Include="IMG/resim2.png">
+      <publishTime>11/16/2023 18:17:17</publishTime>
+    </File>
+    <File Include="IMG/user_1077114.png">
+      <publishTime>11/17/2023 18:56:51</publishTime>
+    </File>
+    <File Include="Login/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap.min.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/_border-radius.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/_reset-text.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/_screen-reader.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/_text-hide.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/mixins/_visibility.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/utilities/_stretched-link.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/bootstrap/_media.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/css/style.css">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/fonts/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/images/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/images/bg.jpg">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/index.html">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/js/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/js/bootstrap.min.js">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/js/jquery.min.js">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/js/main.js">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/js/popper.js">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/main.html">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/.DS_Store">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/bootstrap-grid.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/bootstrap-reboot.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/bootstrap.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_alert.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_background-variant.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_badge.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_border-radius.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_box-shadow.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_breakpoints.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_buttons.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_caret.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_clearfix.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_deprecate.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_float.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_forms.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_gradients.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_grid-framework.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_grid.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_hover.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_image.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_list-group.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_lists.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_nav-divider.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_pagination.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_reset-text.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_resize.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_screen-reader.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_size.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_table-row.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_text-emphasis.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_text-hide.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_text-truncate.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_transition.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/mixins/_visibility.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_align.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_background.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_borders.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_clearfix.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_display.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_embed.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_flex.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_float.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_overflow.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_position.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_screenreaders.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_shadows.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_sizing.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_spacing.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_stretched-link.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_text.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/utilities/_visibility.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/vendor/_rfs.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_alert.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_badge.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_breadcrumb.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_button-group.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_buttons.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_card.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_carousel.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_close.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_code.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_custom-forms.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_dropdown.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_forms.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_functions.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_grid.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_images.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_input-group.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_jumbotron.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_list-group.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_media.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_mixins.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_modal.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_nav.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_navbar.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_pagination.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_popover.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_print.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_progress.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_reboot.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_root.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_spinners.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_tables.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_toasts.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_tooltip.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_transitions.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_type.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_utilities.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/bootstrap/_variables.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Login/scss/style.scss">
+      <publishTime>11/13/2023 17:47:34</publishTime>
+    </File>
+    <File Include="Models/Model1.edmx.diagram">
+      <publishTime>11/10/2023 14:10:06</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>11/09/2023 18:24:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>11/09/2023 18:24:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>11/09/2023 18:24:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/09/2023 18:24:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/09/2023 18:24:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/09/2023 18:24:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/09/2023 18:24:20</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>11/09/2023 18:24:19</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>11/16/2023 17:36:10</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/BlogDetay.cshtml">
+      <publishTime>11/12/2023 22:55:00</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/BlogGuncelle.cshtml">
+      <publishTime>11/12/2023 16:48:48</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Bloglar.cshtml">
+      <publishTime>11/14/2023 20:33:08</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Geziler.cshtml">
+      <publishTime>11/14/2023 15:52:23</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/GezilerDetay.cshtml">
+      <publishTime>11/12/2023 18:39:31</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/GezilerGuncelleme.cshtml">
+      <publishTime>11/12/2023 20:15:26</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Hakkımızda.cshtml">
+      <publishTime>11/13/2023 00:04:36</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Iletisim.cshtml">
+      <publishTime>11/12/2023 23:49:36</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Index.cshtml">
+      <publishTime>11/14/2023 14:15:21</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/OtelDetay.cshtml">
+      <publishTime>11/12/2023 17:23:39</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/OtelGuncelleme.cshtml">
+      <publishTime>11/12/2023 18:05:53</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Oteller.cshtml">
+      <publishTime>11/14/2023 15:48:02</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/RestaurantDetay.cshtml">
+      <publishTime>11/12/2023 18:23:14</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/RestaurantGuncelleme.cshtml">
+      <publishTime>11/12/2023 18:18:23</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/Restaurantlar.cshtml">
+      <publishTime>11/14/2023 15:50:08</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/YeniBlog.cshtml">
+      <publishTime>11/12/2023 16:45:03</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/YeniGeziler.cshtml">
+      <publishTime>11/12/2023 19:57:03</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/YeniOtel.cshtml">
+      <publishTime>11/12/2023 18:18:18</publishTime>
+    </File>
+    <File Include="Views/AdminAnasayfa/YeniRestaurant.cshtml">
+      <publishTime>11/12/2023 18:15:58</publishTime>
+    </File>
+    <File Include="Views/AdminUyeler/Index.cshtml">
+      <publishTime>11/18/2023 21:53:32</publishTime>
+    </File>
+    <File Include="Views/AdminUyeler/Uyeler.cshtml">
+      <publishTime>11/18/2023 16:09:00</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/Index.cshtml">
+      <publishTime>11/17/2023 20:19:32</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/MuzelerYorum.cshtml">
+      <publishTime>11/18/2023 22:58:30</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/OtelYorum.cshtml">
+      <publishTime>11/18/2023 22:53:41</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/RestaurantYorum.cshtml">
+      <publishTime>11/18/2023 22:54:04</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/YorumDetay.cshtml">
+      <publishTime>11/14/2023 12:23:34</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/YorumDetayMuzeler.cshtml">
+      <publishTime>11/14/2023 12:59:35</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/YorumDetayOtel.cshtml">
+      <publishTime>11/14/2023 12:37:31</publishTime>
+    </File>
+    <File Include="Views/AdminYorumlar/YorumDetayRestaurant.cshtml">
+      <publishTime>11/14/2023 12:53:52</publishTime>
+    </File>
+    <File Include="Views/Anasayfa/Index.cshtml">
+      <publishTime>11/18/2023 21:56:15</publishTime>
+    </File>
+    <File Include="Views/Anasayfa/Partial1.cshtml">
+      <publishTime>11/18/2023 21:54:44</publishTime>
+    </File>
+    <File Include="Views/Anasayfa/Partial2.cshtml">
+      <publishTime>11/18/2023 18:21:58</publishTime>
+    </File>
+    <File Include="Views/Anasayfa/Partial4.cshtml">
+      <publishTime>11/16/2023 17:05:29</publishTime>
+    </File>
+    <File Include="Views/Anasayfa/Partial5.cshtml">
+      <publishTime>11/16/2023 17:04:49</publishTime>
+    </File>
+    <File Include="Views/Blog/BlogDetay.cshtml">
+      <publishTime>11/17/2023 21:03:42</publishTime>
+    </File>
+    <File Include="Views/Blog/BlogDetayy.cshtml">
+      <publishTime>11/18/2023 18:15:34</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>11/18/2023 16:53:19</publishTime>
+    </File>
+    <File Include="Views/Blog/YorumYap.cshtml">
+      <publishTime>11/17/2023 20:15:25</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>11/16/2023 17:54:20</publishTime>
+    </File>
+    <File Include="Views/Contact/Partial.cshtml">
+      <publishTime>11/16/2023 17:50:04</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/Login/Login.cshtml">
+      <publishTime>11/18/2023 21:53:58</publishTime>
+    </File>
+    <File Include="Views/Muzeler/Index.cshtml">
+      <publishTime>11/18/2023 16:58:46</publishTime>
+    </File>
+    <File Include="Views/Muzeler/MuzelerDetay.cshtml">
+      <publishTime>11/18/2023 17:00:15</publishTime>
+    </File>
+    <File Include="Views/Muzeler/MuzeYorumYap.cshtml">
+      <publishTime>11/17/2023 20:42:56</publishTime>
+    </File>
+    <File Include="Views/Oteller/Index.cshtml">
+      <publishTime>11/18/2023 16:59:21</publishTime>
+    </File>
+    <File Include="Views/Oteller/OtelDetay.cshtml">
+      <publishTime>11/18/2023 17:00:15</publishTime>
+    </File>
+    <File Include="Views/Oteller/YorumYap.cshtml">
+      <publishTime>11/17/2023 20:43:18</publishTime>
+    </File>
+    <File Include="Views/Restaurantlar/Index.cshtml">
+      <publishTime>11/18/2023 16:59:42</publishTime>
+    </File>
+    <File Include="Views/Restaurantlar/RestaurantDetay.cshtml">
+      <publishTime>11/18/2023 17:00:15</publishTime>
+    </File>
+    <File Include="Views/Restaurantlar/YorumYap.cshtml">
+      <publishTime>11/17/2023 20:43:41</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>11/18/2023 21:52:06</publishTime>
+    </File>
+    <File Include="Views/Shared/_AnasayfaLayout.cshtml">
+      <publishTime>11/18/2023 21:50:46</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/09/2023 18:24:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/17/2023 21:49:42</publishTime>
+    </File>
+    <File Include="web/about.html">
+      <publishTime>11/09/2023 22:18:19</publishTime>
+    </File>
+    <File Include="web/contact.html">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/css/slider2.css">
+      <publishTime>11/14/2023 19:16:17</publishTime>
+    </File>
+    <File Include="web/css/style.css">
+      <publishTime>11/16/2023 14:25:15</publishTime>
+    </File>
+    <File Include="web/destinations.html">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/about_banner.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/arrows.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/but.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/contact.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/dest_banner.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/flight.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/glass.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/group.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/hakkimizda.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/head_bg.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/head_bot.gif">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/img1.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/img2.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/img3.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/img4.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/key.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/link1-bg.gif">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/logo.png">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic1.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic10.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic2.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic3.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic4.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic5.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic6.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic7.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic8.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/images/pic9.jpg">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/index.html">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/js/jquery.min.js">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/js/responsiveslides.min.js">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+    <File Include="web/w3layouts-License.txt">
+      <publishTime>11/09/2023 18:24:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

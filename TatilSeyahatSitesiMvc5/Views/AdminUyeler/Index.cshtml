@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = null;
+}
+
+<html lang="en">
+<head>
+    <title>TD AP Giriş</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/Login/css/style.css">
+
+</head>
+<body class="img js-fullheight" style="background-image: url(../Login/images/bg.jpg);">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">KAYIT BÖLÜMÜ</h2>
+                </div>
+            </div>
+            @if (ViewBag.uyarı != null)
+            {
+                <h2 style="text-align:center;"> @ViewBag.uyarı</h2>
+            }
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="login-wrap p-0">
+                        @using (Html.BeginForm("Index", "AdminUyeler", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            <form action="#" class="signin-form" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="KullanıcıAdı" placeholder="Kullanıcı Adı" required>
+                                </div>
+                                <div class="form-group">
+                                    <input id="password-field" type="password" name="Sifre" class="form-control" placeholder="Sifre" required>
+                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control btn btn-primary submit px-3">Kayıt Ol</button>
+                                </div>
+                            </form>
+                        }
+                        <a style="background-color:blanchedalmond; color:black;" class="btn" href="/Login/Login">Giriş Sayfasına Dön</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Login/js/jquery.min.js"></script>
+    <script src="~/Login/js/popper.js"></script>
+    <script src="~/Login/js/bootstrap.min.js"></script>
+    <script src="~/Login/js/main.js"></script>
+
+</body>
+</html>
+
+
+
+@if (TempData["ekle"] != null)
+{
+    <script>
+
+        toastr["warning"]("Başarıyla Kayıt oldu")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+}

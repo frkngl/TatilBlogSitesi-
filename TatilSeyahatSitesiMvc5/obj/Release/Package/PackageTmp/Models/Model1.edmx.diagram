@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e85b2dc7a99145f68218f0270fa01753" Name="Diagram1">
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLADMIN" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLADRES" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLBLOG" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLILETISIM" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLYORUMLAR" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="Mvc5TatilSeyehatModel.FK_TBLYORUMLAR_TBLBLOG" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLACIKLAMA" Width="1.5" PointX="2.75" PointY="4.625" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLMUZELER" Width="1.5" PointX="8.75" PointY="0.875" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLMUZEYORUM" Width="1.5" PointX="11" PointY="0.875" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLOTELLER" Width="1.5" PointX="5.75" PointY="7.875" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLOTELYORUM" Width="1.5" PointX="8" PointY="7.875" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLRESTAURANT" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="Mvc5TatilSeyehatModel.TBLRESTAURANTYORUM" Width="1.5" PointX="3" PointY="7.875" />
+        <AssociationConnector Association="Mvc5TatilSeyehatModel.FK_TBLMUZEYORUM_TBLMUZELER" />
+        <AssociationConnector Association="Mvc5TatilSeyehatModel.FK_TBLOTELYORUM_TBLOTELLER" />
+        <AssociationConnector Association="Mvc5TatilSeyehatModel.FK_TBLRESTAURANTYORUM_TBLRESTAURANT" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

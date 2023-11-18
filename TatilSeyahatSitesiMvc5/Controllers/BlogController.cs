@@ -22,17 +22,15 @@ namespace TatilSeyahatSitesiMvc5.Controllers
             by.yorumlar2 = db.TBLYORUMLAR.Where(x=>x.DURUM==true).OrderByDescending(x => x.ID).Take(5).ToList();
             return View(by);
         }
-       
-        public ActionResult BlogDetay(int id)
+        public ActionResult BlogDetayy(int id)
         {
             //var degerler=db.TBLBLOG.Where(x=>x.ID==id).ToList();
-            by.bloglar=db.TBLBLOG.Where(x=>x.ID==id).ToList();
-            by.yorumlar=db.TBLYORUMLAR.Where(x=>x.BLOGID==id && x.DURUM==true).ToList();
-            by.bloglar2=db.TBLBLOG.OrderByDescending(x=>x.ID).Take(5).ToList();
-            by.yorumlar2 = db.TBLYORUMLAR.Where(x=>x.DURUM==true).OrderByDescending(x => x.ID).Take(5).ToList();
+            by.bloglar = db.TBLBLOG.Where(x => x.ID == id).ToList();
+            by.yorumlar = db.TBLYORUMLAR.Where(x => x.BLOGID == id && x.DURUM == true).ToList();
+            by.bloglar2 = db.TBLBLOG.OrderByDescending(x => x.ID).Take(5).ToList();
+            by.yorumlar2 = db.TBLYORUMLAR.Where(x => x.DURUM == true).OrderByDescending(x => x.ID).Take(5).ToList();
             return View(by);
         }
-
        
         public PartialViewResult YorumYap(int id)
         {
@@ -51,7 +49,7 @@ namespace TatilSeyahatSitesiMvc5.Controllers
             yeni.DURUM = false;
             db.TBLYORUMLAR.Add(yeni);
             db.SaveChanges();
-            Response.Redirect("/Blog/BlogDetay/" + y.BLOGID);
+            Response.Redirect("/Blog/BlogDetayy/" + y.BLOGID);
             return PartialView();
         }
         
